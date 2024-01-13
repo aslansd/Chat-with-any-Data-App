@@ -1,0 +1,25 @@
+# LLM
+llm:
+  llm_name: llama2
+  temperature: 0.7
+
+doc:
+  doc_type: url
+  doc_path: https://sites.google.com/a/umich.edu/aslansdizaji/home
+  folder_path: /Users/asataryd/Desktop/Relevant Papers/Interesting Papers
+  chunk_size: 1500
+  chunk_overlap: 150
+
+# Database
+db:
+  mode_input: file              # Mode read: file or db 
+  persist_path: ./docs/chroma   # Persist path to save vector database
+  similarit_on: False           # Similarity check: Find similar documents
+  question_k: 3                 # Parameters to find relevant documents
+
+chat:
+  qa_on: True                   # Ask questions to the user
+  qa_chain_type: refine         # map_reduce or map_rerank or refine
+  chat_examples: Start with 'Summarize the document'
+  chat_description: !join ["Ask questions about your data to llama2!"]
+  share_gradio: False           # Share: get public link
