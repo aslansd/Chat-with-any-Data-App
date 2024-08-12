@@ -1,6 +1,6 @@
 # LLM
 llm:
-  llm_name: llama2
+  llm_name: llama3
   temperature: 0.7
 
 doc:
