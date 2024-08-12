@@ -11,7 +11,7 @@ license: MIT
 
 # Chat with any data app
 Chatbot app to chat with any source of data (doc, url, ...) leveraging LLMs, LangChain, and Gradio. Current version has the following features:
-- LLM: Llama2
+- LLM: llama3
 - Data source: "folder", "csv", "doc", "docx", "epub", "html", "md", "pdf", "ppt", "pptx", "txt", "ipynb", "py", and "url".
 
 This app has been inspired by a few DeepLearning AI courses about LangChain.
